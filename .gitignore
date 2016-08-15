@@ -7,3 +7,6 @@
 
 # Ignore object files
 *.o
+
+# Ignore swp files
+*.swp
