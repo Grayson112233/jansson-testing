@@ -1,5 +1,4 @@
 main: main.o
-	gcc -ljansson -lcurl -Wall main.o -o main -std=c99
-
+	gcc  -Wall main.o -o main -std=c99 -ljansson -lcurl
 main.o: main.c
 	gcc -Wall -c main.c -std=c99
